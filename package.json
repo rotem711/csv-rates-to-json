@@ -1,0 +1,31 @@
+{
+  "name": "csv-rates-to-json",
+  "version": "1.0.0",
+  "description": "convert csv to json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-rates": "node update-rates.js",
+    "rate-test": "node rate-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsonlaidlaw/csv-rates-to-json.git"
+  },
+  "keywords": [
+    "csv",
+    "convert",
+    "json"
+  ],
+  "author": "Rotem",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/larsonlaidlaw/csv-rates-to-json/issues"
+  },
+  "homepage": "https://github.com/larsonlaidlaw/csv-rates-to-json#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "glob": "^8.1.0"
+  }
+}
